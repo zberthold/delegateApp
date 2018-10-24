@@ -12,6 +12,7 @@
 		B5E28681218126FF009D146D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E2867F218126FF009D146D /* Main.storyboard */; };
 		B5E2868321812703009D146D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E2868221812703009D146D /* Assets.xcassets */; };
 		B5E2868621812703009D146D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E2868421812703009D146D /* LaunchScreen.storyboard */; };
+		B5E2868E2181273F009D146D /* SelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E2868D2181273F009D146D /* SelectionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B5E2868221812703009D146D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E2868521812703009D146D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E2868721812703009D146D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E2868D2181273F009D146D /* SelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B5E2867B218126FF009D146D /* AppDelegate.swift */,
 				B5E2867D218126FF009D146D /* ViewController.swift */,
 				B5E2867F218126FF009D146D /* Main.storyboard */,
+				B5E2868D2181273F009D146D /* SelectionScreen.swift */,
 				B5E2868221812703009D146D /* Assets.xcassets */,
 				B5E2868421812703009D146D /* LaunchScreen.storyboard */,
 				B5E2868721812703009D146D /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				B5E2867E218126FF009D146D /* ViewController.swift in Sources */,
 				B5E2867C218126FF009D146D /* AppDelegate.swift in Sources */,
+				B5E2868E2181273F009D146D /* SelectionScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

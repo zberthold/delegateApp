@@ -8,13 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BaseController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var chooseButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func chooseButtonTapped(_ sender: Any) {
+        //let selectionVC = storyboard?.instantiateViewController(withIdentifier: "SelectionScreen") as!SelectionScreen
+        //present(selectionVC, animated: true, completion: nil)
+    }
+    
 }
 
