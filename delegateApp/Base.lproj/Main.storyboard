@@ -60,7 +60,7 @@
         <!--Selection Screen-->
         <scene sceneID="16G-WQ-zoF">
             <objects>
-                <viewController storyboardIdentifier="&quot;SelectionScreen&quot;" useStoryboardIdentifierAsRestorationIdentifier="YES" id="42h-mM-P3e" customClass="SelectionScreen" customModule="delegateApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SelectionScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="42h-mM-P3e" customClass="SelectionScreen" customModule="delegateApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3ln-9h-UJ8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

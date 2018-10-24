@@ -18,9 +18,16 @@ class BaseController: UIViewController {
     }
 
     @IBAction func chooseButtonTapped(_ sender: Any) {
-        //let selectionVC = storyboard?.instantiateViewController(withIdentifier: "SelectionScreen") as!SelectionScreen
-        //present(selectionVC, animated: true, completion: nil)
+        let selectionVC = storyboard?.instantiateViewController(withIdentifier: "SelectionScreen") as!SelectionScreen
+        selectionVC.selectionDelegate = self
+        present(selectionVC, animated: true, completion: nil)
     }
     
+}
+
+extension BaseController: SideSelectionDelegate{
+    func didTapChoice(name: String) {
+        nameLabel.text = name
+    }
 }
 
